@@ -1,9 +1,11 @@
 <template>
-  <login />
-  <Router-view />
+  <sign />
+  <!-- <Router-view /> -->
+  <!-- <home/> -->
 </template>
 
 <script setup>
-import login from "./components/login.vue";
-import { RouterView } from "vue-router";
+import sign from "./components/signup.vue";
+// import home from "./components/home.vue";
+// // import { RouterView } from "vue-router";
 </script>

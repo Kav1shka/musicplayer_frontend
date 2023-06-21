@@ -81,6 +81,9 @@ export default {
       this.email = "";
       this.password = "";
     },
+    gotoDashboard(){
+      this.$router.push({ name: "login" });
+    }
   },
 };
 </script>
